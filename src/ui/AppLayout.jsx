@@ -13,7 +13,7 @@ function AppLayout() {
       {isLoading && <Loader />}
       <Header />
       <main>
-        <h1>Content</h1>
+        <h1 className="text-green-600">Content</h1>
         <Outlet />
       </main>
       <CartOverview />
